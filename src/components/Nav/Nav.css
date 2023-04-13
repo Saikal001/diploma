@@ -1,11 +1,15 @@
-.Nav ul {
+.Nav a {
   display: flex;
+  justify-content: space-between;
   list-style-type: none;
   margin: 0;
   padding: o;
+  color: rgb(43, 39, 39);
+text-decoration: none;
 }
-.Nav ul li a {
-color: brown;
-padding: 10px;
-display: block;
+.Nav   a {
+  display: flex;
+  justify-content: space-between;
+
+
 }
