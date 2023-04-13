@@ -4,20 +4,43 @@
   display: flex;
   flex-wrap: wrap;
 }
+header {
+  display: flex;
+
+  justify-content: space-around;
+
+}
+
 .Layout header {
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
-  background-color: antiquewhite;
+
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  box-shadow: 0 0 10px rgb(20, 15, 15);
+  background-color: aliceblue;
+display: flex;
 }
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 20px ;
+  padding: 0;
+}
+
+
 .Layout aside {
   flex: 20% 0 0;
-background-color: aqua;
+  background-color: aqua;
 }
+
 .Layout main {
   flex: 80% 1 1;
   background-color: blueviolet;
 }
+
 .Layout footer {
   flex: 100% 0 0;
   background-color: rgb(249, 177, 177);
