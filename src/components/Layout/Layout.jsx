@@ -1,4 +1,5 @@
 import Contacts from "../../pages/Contacts";
+import CategoryList from "../CategoryList/CategoryList";
 import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 import "./Layout.css";
@@ -11,7 +12,7 @@ export default function Layout(props) {
         <Nav/>
       </header>
       <aside>
-        Aside
+        <CategoryList />
       </aside>
       <main>
         {props.children}

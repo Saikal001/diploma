@@ -3,7 +3,7 @@ import "./Delivery.css";
 
 export default function Layout(props) {
   return (
-    <div className="Layout">
+    <div className="Delivery">
       <header>
         <Delivery/>
       
