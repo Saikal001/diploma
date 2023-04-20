@@ -1,4 +1,5 @@
 import Contacts from "../../pages/Contacts";
+import CartLink from "../CartLink/CartLink";
 import CategoryList from "../CategoryList/CategoryList";
 import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
@@ -10,6 +11,7 @@ export default function Layout(props) {
       <header>
         <Logo />
         <Nav/>
+        <CartLink/>
       </header>
       <aside>
         <CategoryList />
