@@ -10,6 +10,7 @@ import Contacts from "./pages/Contacts";
 import Delivery from "./pages/Delivery";
 import Cart from "./pages/Cart";
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 
 export const AppContext = createContext({
   categories: [],
@@ -25,8 +26,14 @@ const [categories, setCategories] = useState([]);
 const [products, setProducts] = useState([]);
 
 //корзина
-const [cart, setCart] = useState({});//
+const [cart, setCart] = useState(() => {
+  return JSON. parse (localStorage.getItem("cart")) || {};
+});
+useEffect (() => {
+  localStorage.setItem("cart", JSON.stringify(cart));
+}, [cart]);
 //
+
 useEffect(() => {
   getDocs(categoryCollection)
     .then(snapshot => {
@@ -70,6 +77,7 @@ useEffect(() => {
           <Route path="/delivery" element={<Delivery/>} />
           <Route path="/category/:path" element={<Category/>} />
           <Route path="/cart" element={<Cart/>} />
+          <Route path="*" element={<NotFound/>} />
         </Routes>
       </Layout>
 
