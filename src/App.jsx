@@ -11,6 +11,7 @@ import Delivery from "./pages/Delivery";
 import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
+import Product from "./pages/Product";
 
 export const AppContext = createContext({
   categories: [],
@@ -72,12 +73,15 @@ useEffect(() => {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/contact" element={<Contacts/>} />
-          <Route path="/delivery" element={<Delivery/>} />
-          <Route path="/category/:path" element={<Category/>} />
-          <Route path="/cart" element={<Cart/>} />
-          <Route path="*" element={<NotFound/>} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contacts />} />
+          <Route path="/delivery" element={<Delivery />} />
+          <Route path="/category/:path" element={<Category />} />
+          <Route path="/product/:path" element={<Product />} />
+          <Route path="/cart" element={<Cart />} />
+
+          <Route path="*" element={<NotFound />} />
+
         </Routes>
       </Layout>
 
