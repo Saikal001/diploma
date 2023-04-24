@@ -3,7 +3,7 @@ import { createContext, useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Layout from "./components/Layout/Layout";
-import { categoryCollection, productCollection } from "./firebase";
+import { categoryCollection, productCollection, onAuthChange } from "./firebase";
 import About from "./pages/About";
 import Category from "./pages/Category";
 import Contacts from "./pages/Contacts";
@@ -12,6 +12,7 @@ import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
+import ThankYou from "./pages/ThankYou";
 
 export const AppContext = createContext({
   categories: [],
@@ -19,13 +20,17 @@ export const AppContext = createContext({
 
 //корзина
   cart: {},
-  setCart: () => {}
+  setCart: () => {},
+
+  user: null, // здесь будет храниться информация про пользователя
 });
 
 export default function App() {
 const [categories, setCategories] = useState([]);
 const [products, setProducts] = useState([]);
 
+
+const [user, setUser] = useState(null);
 //корзина
 const [cart, setCart] = useState(() => {
   return JSON. parse (localStorage.getItem("cart")) || {};
@@ -64,12 +69,15 @@ useEffect(() => {
 
       setProducts(newProducts);
 
+      onAuthChange(user => {
+        setUser(user);
+      }); 
     })
 }, []);
 //
   return (
     <div className="App">
-<AppContext.Provider value={{ categories, products, cart, setCart }}>
+<AppContext.Provider value={{ categories, products, cart, setCart, user }}>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -79,6 +87,8 @@ useEffect(() => {
           <Route path="/category/:path" element={<Category />} />
           <Route path="/product/:path" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
+
+          <Route path="/thank-you" element={<ThankYou />} />
 
           <Route path="*" element={<NotFound />} />
 
