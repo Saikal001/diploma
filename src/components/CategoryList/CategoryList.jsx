@@ -6,7 +6,7 @@ import "./CategoryList.css";
 import { NavLink } from "react-router-dom";
 
 export default function CategoryList() {
-
+      
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
