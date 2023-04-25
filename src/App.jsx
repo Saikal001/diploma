@@ -3,7 +3,7 @@ import { createContext, useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Layout from "./components/Layout/Layout";
-import { categoryCollection, productCollection, onAuthChange } from "./firebase";
+import { categoryCollection, productCollection, onAuthChange, orderCollection } from "./firebase";
 import About from "./pages/About";
 import Category from "./pages/Category";
 import Contacts from "./pages/Contacts";
@@ -13,10 +13,12 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
+import Orders from "./pages/Orders";
 
 export const AppContext = createContext({
   categories: [],
   products: [],
+  orders : [],
 
 //корзина
   cart: {},
@@ -28,6 +30,7 @@ export const AppContext = createContext({
 export default function App() {
 const [categories, setCategories] = useState([]);
 const [products, setProducts] = useState([]);
+const [orders, serOrders] = useState([]);
 
 
 const [user, setUser] = useState(null);
@@ -68,6 +71,27 @@ useEffect(() => {
       });
 
       setProducts(newProducts);
+      
+
+      onAuthChange(user => {
+        setUser(user);
+      }); 
+    })
+
+
+    getDocs(orderCollection)
+    .then(snapshot => {
+    const newOrders = [];
+
+    snapshot.docs.forEach(doc => {
+      const order = doc.data();
+      order.id = doc.id;
+
+      newOrders.push(order);
+      });
+
+      setOrders(newOrders);
+      
 
       onAuthChange(user => {
         setUser(user);
@@ -75,9 +99,13 @@ useEffect(() => {
     })
 }, []);
 //
+
+
+
+    
   return (
     <div className="App">
-<AppContext.Provider value={{ categories, products, cart, setCart, user }}>
+<AppContext.Provider value={{ categories, products, cart, setCart, user, orders }}>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -89,7 +117,7 @@ useEffect(() => {
           <Route path="/cart" element={<Cart />} />
 
           <Route path="/thank-you" element={<ThankYou />} />
-
+          <Route path="/orders" element={<Orders />} />
           <Route path="*" element={<NotFound />} />
 
         </Routes>
