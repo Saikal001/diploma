@@ -1,3 +1,6 @@
 .Logo img {
+  display: flex;
   width: 100px;
+  border-radius: 60%;
+
 }
