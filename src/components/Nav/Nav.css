@@ -1,12 +1,29 @@
 .Nav ul {
-  display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  
+  /*
+    position: fixed;
+    top: 0;
+    width: 100%;надо поработать над ним*/
+}
+  
+
+ .Nav li {
+  float: left;
 }
 
-.Nav ul li a {
-  color: black;
-  padding: 10px;
+.Nav li a {
   display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  border-radius: 40%;
+  
+}
+
+.Nav li a:hover {
+  background-color: palevioletred;
 }
