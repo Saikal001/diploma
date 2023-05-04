@@ -23,7 +23,10 @@ header {
   padding: 10px 15px;
   box-shadow: 0 0 10px rgb(20, 15, 15);
   background-color: aliceblue;
+
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav {
@@ -53,4 +56,10 @@ header {
 .Layout footer {
   flex: 100% 0 0;
   background-color: rgb(249, 177, 177);
+}
+
+@media (max-width: 650px) {
+  .Layout header > .Nav {
+    display: none;
+  }
 }
