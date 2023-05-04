@@ -4,6 +4,8 @@ import { categoryCollection } from "../../firebase";
 
 import "./CategoryList.css";
 import { NavLink } from "react-router-dom";
+import AddCategory from "../AddCategory/AddCategory";
+import DeleteCategory from "../DeleteCategory/DeleteCategory";
 
 export default function CategoryList() {
       
@@ -31,6 +33,7 @@ export default function CategoryList() {
       <NavLink to={'/category/' + category.path}>
         {category.name}
       </NavLink>
+      <DeleteCategory category={category} />
     </li>
   ))
   return (
@@ -38,6 +41,7 @@ export default function CategoryList() {
       <ul>
         {output}
       </ul>
+      <AddCategory/>
     </div>
   );
 }
