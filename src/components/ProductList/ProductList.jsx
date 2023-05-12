@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { AppContext } from "../../App";
 import AddProduct from "../AddProduct/AddProduct";
 import AddToCart from "../AddToCart/AddToCart";
+import DeleteProduct from "../DeleteProduct/DeleteProduct";
 import "./ProductList.css";
 
 
@@ -21,6 +22,7 @@ export default function ProductList({ category }) {
         <span>{product.price} som</span>
 
       <AddToCart product={product}/>
+      <DeleteProduct product={product} />
       </div>
     ));
 
@@ -29,7 +31,8 @@ export default function ProductList({ category }) {
     <div className="ProductList">
 
       {output}
-      < AddProduct />
+
+      < AddProduct category={category} />
     </div>
   );
 }
