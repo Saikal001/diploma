@@ -1,8 +1,23 @@
 .Home {
   background-image: url(https://www.sweet-lavka.ru/upload/iblock/1fd/1teh9z3hxmlhlw9hdmvojhzyty9l7ncr.jpg);
   background-size: contain;
-width: 50%;
-height: 50%;
-  background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+
+  
+}
+
+.Home p{
+  color: white;
+  font-size: 70px;
+  text-align: center;
+
+
+}
+.Home h1 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 40px;
   
 }
