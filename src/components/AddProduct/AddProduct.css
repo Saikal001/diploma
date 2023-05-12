@@ -1,1 +1,4 @@
-.AddProduct 
+.AddProduct p {
+  text-align: left;
+  
+}
