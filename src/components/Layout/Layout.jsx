@@ -17,20 +17,24 @@ export default function Layout(props) {
   }
   return (
     <div className="Layout">
-      <header>
-        <Logo />
-        <Nav />
-        <NavToggle callback={toggleDrawer} />
-        <Drawer open={drawerOpen} toggle={toggleDrawer} />
-        <CartLink />
-        <Auth />
-      </header>
       <aside>
         <CategoryList />
       </aside>
-      <main>
-        {props.children}
-      </main>
+      <div className="main">
+        <header>
+          <Logo />
+          <Nav />
+          <NavToggle callback={toggleDrawer} />
+          <Drawer open={drawerOpen} toggle={toggleDrawer} />
+          <CartLink />
+          <Auth />
+        </header>
+        
+        <main>
+          {props.children}
+        </main>
+      </div>
+      
       <footer>
         <Contacts />
       </footer>
