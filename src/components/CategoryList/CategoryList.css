@@ -31,6 +31,7 @@
   cursor: pointer;
   border-radius: 5px;
   font-family: inherit;
+  
 }
 .dropBtn:hover {
   background-color: #1f220c;
@@ -47,7 +48,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin: 0;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0;
   
 }
@@ -71,5 +72,5 @@
 .dropdownContent li a:hover {
   transform: translateX(5px);
   transition: 200ms ease all;
-      
+
 }
