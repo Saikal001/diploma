@@ -1,5 +1,5 @@
 .Layout {
-  max-width: 789;
+  max-width: 1200PX;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -8,13 +8,9 @@
 header {
   display: flex;
   background-color: white;
-  
 }
 
 .Layout header {
-  flex-basis: 100%;
-  flex-grow: 0;
-  flex-shrink: 0;
   padding: 10px 15px;
   box-shadow: 0 0 10px rgb(20, 15, 15);
   background-color: white;
@@ -38,8 +34,11 @@ header {
   background-color: white;
   line-height: 50px;
   font-size: large;
+  Width: 240px;
 }
-
+.main{
+  width: calc(100% - 240px);
+}
 .Layout main {
   flex: 80% 1 1;
   background-image: url(https://t3.ftcdn.net/jpg/01/88/22/56/360_F_188225626_jXYzh0CNZLiv1e8jOcTlmyI6bcVpLOtu.webp);
