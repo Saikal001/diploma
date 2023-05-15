@@ -8,29 +8,33 @@
     top: 0;
     width: 100%;надо поработать над ним*/
 }
-  
 
- .Nav li {
+.Nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+.Nav li {
   float: left;
 }
 
 .Nav li a {
   display: block;
-  color: pink;
+  color: grey;
   text-align: center;
-  padding: 14px 20px;
+  padding: 14px 16px;
   text-decoration: none;
-  border-radius: 40%;
-  
 }
-
+.Nav ul {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* Измените цвет ссылки на #111 (черный) при наведении курсора */
 .Nav li a:hover {
-  background-color: palevioletred;
+  background-color: #111;
 }
 
-@media (max-width: 650px) {
-  .Nav ul {
-    flex-direction: column;
-  }
-} 
 

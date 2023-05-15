@@ -31,7 +31,7 @@ export default function OrderList() {
         <div><strong>Cart</strong>: {cart}</div>
       </div>
     );
-  });
+  });  
 
   return (
     <div className="OrderList">
