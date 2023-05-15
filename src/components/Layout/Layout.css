@@ -11,10 +11,7 @@ header {
 }
 
 .Layout header {
-  padding: 10px 15px;
-  box-shadow: 0 0 10px rgb(20, 15, 15);
-  background-color: white;
-
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
