@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
+import Holiday from "./pages/Holiday";
+import About from "./pages/About";
 import Category from "./pages/Category";
 import { createContext, useEffect, useState } from "react";
 
@@ -57,7 +59,8 @@ export default function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<h2>About</h2>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/holiday" element={<Holiday/>} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
