@@ -7,6 +7,7 @@ export default function Nav() {
       <ul>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
+        <li><NavLink to="/menu">🥨</NavLink></li>
         <li><NavLink to="/holiday">Holiday</NavLink></li>
         <li><NavLink to="/comfortable-conditions-for-readers">Сomfortable conditions for readers</NavLink></li>
         <li><NavLink to="/blog">Blog</NavLink></li>
