@@ -30,12 +30,12 @@ export default function Home() {
       {/* <aside>
         <CategoryList />
       </aside> */}
-      <h2>On World Chocolate Day, which was celebrated this weekend, a speed chocolate eating contest was help for children.</h2>
+      {/* <h2>On World Chocolate Day, which was celebrated this weekend, a speed chocolate eating contest was help for children.</h2>
       <p>Seveeral venues were organized in the city various evebts were held.
         For the near with Sweet Shop , and the Chocolate Show holiday-game took place on the main site - in the children's library. In addition to an interesting and exstraordinarily tasty completition for speed eating chocolate, as well as the "Dress Up" contest, where children dressed each other with candies using clothespins, theorganizers arranged an exhibiton of sweets ,watching a video about choocolate production.
         Also , the sweet tooth was toldabout the history.
 
-      </p>
+      </p> */}
     </div>
 
 

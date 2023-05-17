@@ -6,6 +6,22 @@ export default function About() {
       <h1>Welcome to my Sweets shop</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
       
+
+      <div className="simple-spinner"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
       );
       }
