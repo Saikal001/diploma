@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
 import Holiday from "./pages/Holiday";
+import Delivery from "./pages/Delivery";
 import About from "./components/About/About";
 import Category from "./pages/Category";
 import { createContext, useEffect, useState } from "react";
@@ -64,6 +65,7 @@ export default function App() {
             <Route path="/about" element={<About/>} />
             <Route path="/holiday" element={<Holiday/>} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/delivery" element={<Delivery />} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
