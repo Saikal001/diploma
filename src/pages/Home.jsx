@@ -1,5 +1,5 @@
 import "./Home.css";
-import videoo from "../pages/videoplayback.mp4";
+import video from "../pages/videoplayback.mp4";
 
 
 export default function Home() {
@@ -7,11 +7,8 @@ export default function Home() {
     <div className="Home">
 
 <div className="video-bg">
-  <video src="video-bg.mp4" type="video/mp4" autoplay muted loop>
-    <div className="effects">
-
-    </div>
-  <source src={videoo} />
+  <video loop="loop" controls="contronls">
+  <source src={video} />
   </video>
   <div className="video-bg_content">
     <h1>Sweet</h1>
