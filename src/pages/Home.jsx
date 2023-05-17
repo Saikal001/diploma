@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="Home">
 <video>
-  <source src="https://pin.it/4NNQV0E" />
+  <source src="./" />
 </video>
 
 
