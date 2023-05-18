@@ -8,7 +8,6 @@ import { createContext, useEffect, useState } from "react";
 
 import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from "./firebase";
 import Cart from "./pages/Cart";
-import Сomfortable from "./pages/Сomfortable";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
@@ -70,7 +69,6 @@ export default function App() {
             <Route path="/holiday" element={<Holiday />} />
             <Route path="/popular" element={<Popular />} />
             <Route path="/privacy" element={<Privacy />} />
-            <Route path="/Сomfortable" element={<Сomfortable />} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
