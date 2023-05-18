@@ -6,14 +6,16 @@ import About from "./components/About/About";
 import Category from "./pages/Category";
 import { createContext, useEffect, useState } from "react";
 
-import {onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from "./firebase";
+import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from "./firebase";
 import Cart from "./pages/Cart";
+import Сomfortable from "./pages/Сomfortable";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
 import Orders from "./pages/Orders";
 import Privacy from "./pages/Privacy";
 import Blog from "./pages/Blog";
+import Popular from "./components/Popular/Popular";
 
 
 
@@ -25,7 +27,7 @@ export const AppContext = createContext({
 
   // корзина
   cart: {},
-  setCart: () => {},
+  setCart: () => { },
 
   user: null, // здесь будет храниться информация про пользователя
 });
@@ -64,10 +66,11 @@ export default function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About/>} />
-            <Route path="/holiday" element={<Holiday/>} />
+            <Route path="/about" element={<About />} />
+            <Route path="/holiday" element={<Holiday />} />
+            <Route path="/popular" element={<Popular />} />
             <Route path="/privacy" element={<Privacy />} />
-            
+            <Route path="/Сomfortable" element={<Сomfortable />} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
