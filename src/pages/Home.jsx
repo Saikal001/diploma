@@ -1,5 +1,5 @@
 import "./Home.css";
-import video from "../pages/Korkunov.mp4";
+import video from "../components/istockphoto-469925451-640_adpp_is.mp4";
 
 
 export default function Home() {
