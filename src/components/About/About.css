@@ -1,12 +1,24 @@
-@keyframes rotate {
-  0%{
+.simple-spinner {
+  height: 50px;
+width: 50px;
+bottom: 5pxsolid rgba(150, 150, 150, 0.2);
+background-repeat: 50px;
+border-radius: 50%;
+border-top-color: rgba(150, 150, 150);
+animation: rotate 1s 0s infinite leaner;
 
-  }
-25%{
+
 
 }
+
+
+@keyframes rotate {
+  0%{
+transform: rotate(0);
+  }
+
 100%{
-  
+transform: rotate(360deg);
 }
 
 }
