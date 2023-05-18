@@ -6,9 +6,9 @@ export default function Popular() {
     <div className="Popular">
       
 
-      <div className="main-text">Who loves to read?</div>
+      <div className="main-text">Popular</div>
 
-      <img src={popular} alt="popular"/>
+      
 
       </div>
       );
