@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.Popular {
+  font-family: 'Righteous', cursive;;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  
+}
+.main-text {
+  margin-top: 250px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhQvMRXaCvQWCSxgtdGiVhXGNi82fRugPSGw&usqp=CAU);
+  font-size: 150px;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s infinite linear;
+}
+
+
+@keyframes animate {
+from {
+  background-position: 0 0;
+}
+to {
+  background-position: 100% 100%;
+}
+}
