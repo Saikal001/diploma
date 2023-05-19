@@ -15,6 +15,7 @@ import Orders from "./pages/Orders";
 import Privacy from "./pages/Privacy";
 import Blog from "./pages/Blog";
 import Popular from "./components/Popular/Popular";
+import HelpForum from "./pages/HelpForum";
 
 
 
@@ -67,6 +68,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/holiday" element={<Holiday />} />
+            <Route path="/helpforum" element={<HelpForum/>} />
             <Route path="/popular" element={<Popular />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/category/:path" element={<Category />} />
