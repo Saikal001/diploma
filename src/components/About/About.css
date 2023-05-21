@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 .section {
   width: 100%;
   min-height: 100vh;
@@ -31,15 +32,16 @@
   float: right;
   width: 40%;
 }
-.image-section img {
+
+/* .image-section img {
   width: 100%;
 
-}
+} */
 .image-section img {
   width: 100%;
   height: auto;
-  display: block;
-  margin: auto;
+  /* display: block;
+  margin: auto; */
 }
 
 
@@ -47,19 +49,23 @@
   text-transform: uppercase;
   font-size: 28px;
 }
+
 .content-section .content h3 {
   margin-top: 20px;
   color: #5d5d5d;
   font-size: 21px;
 }
+
 .content-section .content p {
   margin-top: 10px;
   font-family: sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.5;
 }
-.content-section .content .button{
+
+.content-section .content .button {
   margin-top: 30px;
+
 }
 
 .content-section .content .button a {
@@ -76,6 +82,7 @@
   color: #5d5d5d;
 
 }
+
 .content-section .social {
   margin-top: 40px 40px;
 
@@ -86,6 +93,7 @@
   font-size: 30px;
   padding: 0px 10px;
 }
+
 .content-section .social i:hover {
   color: #3d3d3d;
 
@@ -94,17 +102,18 @@
 @media screen and (max-width: 768px) {
   .conteiner {
     width: 80%;
-  display: block;
-  margin: auto;
-  padding-top: 50px;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
   }
-  
+
   .content-section {
     float: none;
     width: 100%;
     display: block;
     margin: auto;
   }
+
   .image-section {
     float: none;
     width: 100%;
@@ -112,17 +121,21 @@
     margin: auto;
 
   }
+
   .content-section .title {
     text-align: center;
     font-size: 19px;
   }
+
   .content-section .content .button {
-   text-align: center;
-   padding: 9px 30px;
+    text-align: center;
+    padding: 9px 30px;
   }
+
   .content-section .content .button {
     padding: 9px 30px;
   }
+
   .content-section .social {
     text-align: center;
 
