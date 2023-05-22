@@ -1,15 +1,26 @@
 import "./HelpForum.css";
 
-
 export default function HelpForum() {
   return (
     <div className="HelpForum">
-
-<div className="intro">
-<div className="cantainer">
-<h1>Help forum</h1>
+      {/* <h1>About</h1> */}
+      <div className="header">
+        <div className="container">
+          <div className="header_inner">
+<div className="header_logo">
+  Help Forum
+</div>
+          </div>
 </div>
 </div>
+      
+    
+<div className="content">
+        
+
+      
+
+      
 
 
 
@@ -17,9 +28,13 @@ export default function HelpForum() {
 
 
 
-    </div>
 
 
 
-  );
-}
+
+
+
+/</div>
+      </div>
+      );
+      }
