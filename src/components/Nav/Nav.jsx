@@ -11,7 +11,6 @@ export default function Nav() {
         <li><NavLink to="/popular">Popular</NavLink></li>
         <li><NavLink to="/blog">Blog</NavLink></li>
         <li><NavLink to="/delivery">Delivery</NavLink></li>
-        <li><NavLink to="/job">Jod</NavLink></li>
         <li><NavLink to="/help-forum">Help Forum</NavLink></li>
         
    
