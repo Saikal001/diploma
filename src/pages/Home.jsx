@@ -40,8 +40,7 @@ export default function Home() {
 <header class="masthead">
 
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-            <div class="video-bg"><video loop="loop"> <source src={video} /></video> 
-              
+            
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Sweets</h1>
@@ -52,7 +51,7 @@ export default function Home() {
                     
                 </div>
             </div>
-            </div>
+            
         </header>
         {/* <!-- About--> */}
         <section class="about-section text-center" id="about">
@@ -193,9 +192,9 @@ export default function Home() {
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    {/* <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a> */}
 {/* 
                     <img src={tw} alt="" />   */}
                 </div>
