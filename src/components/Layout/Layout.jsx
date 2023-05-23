@@ -8,6 +8,7 @@ import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 import NavToggle from "../NavToggle/NavToggle";
 import "./Layout.css";
+// import vid from "../assets/videoplayback.mp4";
 
 export default function Layout(props) {
   const [drawerOpen, setDrawerOpen] = useState (false);
@@ -32,6 +33,8 @@ export default function Layout(props) {
         
         <main>
           {props.children}
+          {/* <div class="video-bg"><video loop="loop"> <source src={vid} /></video>  */}
+              
         </main>
       </div>
       
