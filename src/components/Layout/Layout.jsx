@@ -35,9 +35,7 @@ export default function Layout(props) {
         </main>
       </div>
       
-      <footer>
-        <Contacts />
-      </footer>
+      
 
     </div>
   );
