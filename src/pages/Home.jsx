@@ -1,5 +1,5 @@
 import "./Home.css";
-import video from "../components/istockphoto-469925451-640_adpp_is.mp4";
+import video from "../assets/videoplayback.mp4";
 import img from "../assets/sweets.jpg";
 import img2 from "../assets/choco.jpg";
 import img3 from "../assets/drinks.jpg";
@@ -38,15 +38,20 @@ export default function Home() {
 
 
 <header class="masthead">
-  
+
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class="video-bg"><video loop="loop"> <source src={video} /></video> 
+              
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Sweets</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">All kinds of sweets shop for you sweet lovers.</h2>
+                        
                       <a class="btn btn-primary" href="#about">Get Started</a>
                     </div>
+                    
                 </div>
+            </div>
             </div>
         </header>
         {/* <!-- About--> */}
@@ -188,23 +193,17 @@ export default function Home() {
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"><img src={tw} alt="" /></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"><img src={tw} alt="" /></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"><img src={tw} alt="" />  </i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+{/* 
+                    <img src={tw} alt="" />   */}
                 </div>
             </div>
         </section>
       
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
-        {/* <!-- Bootstrap core JS--> */}
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-         {/* <!-- Footer--><!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5"> My Website 2023</div></footer>
+      
 
 
 
