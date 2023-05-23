@@ -3,6 +3,7 @@
   margin: 0;
   padding: 20px;
   
+  z-index: 10px;
   /*
     position: fixed;
     top: 0;
@@ -36,6 +37,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 /* Измените цвет ссылки на #111 (черный) при наведении курсора */
 .Nav li a:hover {
