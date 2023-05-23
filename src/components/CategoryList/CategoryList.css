@@ -1,8 +1,11 @@
 .CategoryList ul {
   list-style-type: none;
-  margin: 0;
+  /* margin: 0;
   padding: 10px;
-  
+  position: fixed; */
+  top: 0;
+  width: 100%;
+  z-index: 10;
   
 }
 .CategoryList li {
@@ -21,6 +24,39 @@
 .CategoryList li a:hover {
   background-color: plum;
 }
+
+/* .Nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+.Nav li {
+  float: left;
+  display: block;
+  color: grey;
+  text-align: center;
+  
+  text-decoration: none;
+}
+
+.Nav  a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+    text-decoration: none;
+}
+.Nav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+} */
+/* Измените цвет ссылки на #111 (черный) при наведении курсора */
+
+
 
 /* .CategoryList dropBtn {
   background-color: #d3df94;

@@ -1,0 +1,14 @@
+
+.OrderForm label {
+  display: flex;
+  list-style-type: none;
+  top: 0;
+  width: 100%;
+  border-right: 1px ;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  line-height: 15px;
+  padding: 10px;
+  border-width: 5px;
+}
