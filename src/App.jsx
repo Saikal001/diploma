@@ -12,10 +12,9 @@ import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
 import Orders from "./pages/Orders";
-import Privacy from "./pages/Privacy";
 import Blog from "./pages/Blog";
 import Popular from "./components/Popular/Popular";
-import HelpForum from "./pages/HelpForum";
+
 
 
 
@@ -68,9 +67,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/holiday" element={<Holiday />} />
-            <Route path="/help-forum" element={<HelpForum/>} />
-            <Route path="/popular" element={<Popular />} />
-            <Route path="/privacy" element={<Privacy />} />
+             <Route path="/popular" element={<Popular />} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
