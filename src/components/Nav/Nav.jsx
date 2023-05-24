@@ -12,10 +12,9 @@ export default function Nav() {
         <li><NavLink to="/blog">Blog</NavLink></li>
         <li><NavLink to="/delivery">Delivery</NavLink></li>
         <li><NavLink to="/help-forum">Help Forum</NavLink></li>
+
         
-   
-        
-        
+
       </ul>
     </nav>
   );
