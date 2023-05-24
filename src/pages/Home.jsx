@@ -1,10 +1,11 @@
 import "./Home.css";
-import video from "../assets/videoplayback.mp4";
+import video from "../assets/istockphoto-469925451-640_adpp_is.mp4";
 import img from "../assets/sweets.jpg";
 import img2 from "../assets/choco.jpg";
 import img3 from "../assets/drinks.jpg";
 import img4 from "../assets/kit-kat.jpg";
 import tw from "../assets/twitter.jpg";
+
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
 
 <header class="masthead">
 
+  
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             
                 <div class="d-flex justify-content-center">
@@ -47,11 +49,12 @@ export default function Home() {
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">All kinds of sweets shop for you sweet lovers.</h2>
                         
                       <a class="btn btn-primary" href="#about">Get Started</a>
+                      
                     </div>
-                    
+
                 </div>
             </div>
-            
+        
         </header>
         {/* <!-- About--> */}
         <section class="about-section text-center" id="about">
