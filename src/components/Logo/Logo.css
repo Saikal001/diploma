@@ -2,5 +2,13 @@
   display: flex;
   width: 100px;
   border-radius: 60%;
+  width: 5pc;
+  height: 5pc;
 
+}
+
+.Logo {
+  padding: 0 40px;
+display: flex;
+align-items: center;
 }
