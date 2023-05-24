@@ -15,9 +15,7 @@ export default function About() {
             <h3>Lorem ipsum dolor sit.</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit illum animi asperiores id. Accusantium cupiditate adipisci pariatur est dignissimos, quibusdam aliquam? Consequatur quod ipsam soluta maxime nemo. Quidem, quibusdam doloribus.
               Doloribus delectus distinctio magnam debitis adipisci eveniet tempore, quasi, vitae animi quaerat nostrum consectetur aspernatur laudantium dolores aliquam incidunt unde non at consequuntur. Quidem quibusdam consequatur voluptatem. Quasi, mollitia reprehenderit?
-              Fuga, voluptates itaque. Laborum neque, nobis officiis distinctio eum quod fugit eius! Dolorem optio, eveniet culpa corporis tenetur minima amet provident! Velit temporibus ducimus provident quaerat error, asperiores corporis eius.
-              Qui ipsa molestias nam in ea provident facilis voluptates quae repellendus sit sapiente cupiditate debitis nisi, enim amet ut officia vero inventore odio alias optio quia. Quod nostrum doloremque ducimus.
-              Rem neque veritatis facere? Asperiores, magni. Dolore distinctio a autem cupiditate corporis amet, praesentium voluptates? Ullam quam, consectetur sapiente dolores nobis magni earum iste repellendus tenetur in totam explicabo minus.</p>
+              </p>
 
             <div className="button">
               <a href="">Read more</a>
