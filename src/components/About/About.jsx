@@ -137,17 +137,17 @@ export default function About() {
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <h3>О нас</h3>
-        <p>Мы занимаемся продажей сладостей уже более 10 лет и всегда готовы порадовать наших клиентов.</p>
+      <h3>About Us</h3>
+        <p>We have been selling sweets for over 10 years and are always ready to please our customers.</p>
       </div>
       <div class="col-md-4">
-        <h3>Контакты</h3>
-        <p>Адрес: г.Москва, ул. Садовая 1</p>
-        <p>Телефон: 8 (800) 555-55-55</p>
-        <p>Email: info@sweets.ru</p>
+        <h3>Contacts</h3>
+        <p>city Bishkek st. Imanbaieva 40 mikroraion 12 </p>
+        <p>Phone: (+996) 702 02 85 45</p>
+        <p>Email: zhanybaevasaikal@gmail.com</p>
       </div>
       <div class="col-md-4">
-        <h3>Следите за нами</h3>
+        <h3>Follow us</h3>
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-twitter"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
