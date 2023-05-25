@@ -5,27 +5,6 @@ import "./Holiday.css";
 export default function Home() {
   return (
     <div className="Holiday">
-<div class="">
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <h1><b>Holiday sweet eating competitions and distribution of sweets to children</b></h1>
       {/* <aside>
         <CategoryList />
@@ -36,8 +15,33 @@ export default function Home() {
         Also , the sweet tooth was toldabout the history.
 
       </p> */}
-    </div>
 
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>О нас</h3>
+        <p>Мы занимаемся продажей сладостей уже более 10 лет и всегда готовы порадовать наших клиентов.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Контакты</h3>
+        <p>Адрес: г.Москва, ул. Садовая 1</p>
+        <p>Телефон: 8 (800) 555-55-55</p>
+        <p>Email: info@sweets.ru</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Следите за нами</h3>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+</div>
 
 
   );
