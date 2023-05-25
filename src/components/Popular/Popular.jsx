@@ -78,11 +78,9 @@ export default function Popular() {
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    {/* <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                     <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a> */}
-{/* 
-                    <img src={tw} alt="" />   */}
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a> 
                 </div>
             </div>
         </section>
