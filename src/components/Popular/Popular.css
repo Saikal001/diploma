@@ -7,15 +7,6 @@
   color: #fff;
   
 }
-.main-text {
-  margin-top: 250px;
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhQvMRXaCvQWCSxgtdGiVhXGNi82fRugPSGw&usqp=CAU);
-  font-size: 150px;
-  color: transparent;
-  -webkit-background-clip: text;
-  animation: animate 10s infinite linear;
-}
-
 
 @keyframes animate {
 from {
