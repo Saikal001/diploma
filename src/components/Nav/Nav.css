@@ -36,11 +36,7 @@
 }
 
 .Nav ul {
-  position: fixed;
-  top: 0;
   width: 100%;
-  margin-top: 1rem;
-
   z-index: 10;
 }
 
@@ -49,6 +45,3 @@
   background-color: #111;
 }
 
-.Nav {
-  padding: 15px 15px;
-}
