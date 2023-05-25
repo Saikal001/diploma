@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
+import Delivery from "./components/Delivery/Delivery";
 import Home from "./pages/Home";
 import Holiday from "./pages/Holiday";
 import About from "./components/About/About";
@@ -74,7 +75,7 @@ export default function App() {
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/orders" element={<Orders />} />
-
+            <Route path="/delivery" element={<Delivery />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
