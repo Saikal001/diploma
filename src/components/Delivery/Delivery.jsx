@@ -1,9 +1,11 @@
 import React from "react";
 import "./Delivery.css";
 
+
 const Delivery = () => {
   return (
     <div className="Delivery">
+<div className="del">
       <h2>Delivery</h2>
       <p>
       All the best for our clients
@@ -15,6 +17,8 @@ When choosing food on the Namba Food website, you can see that we cooperate with
 When choosing food on the Namba Food website, you can see that we cooperate with the best establishments in Bishkek. But despite this, we are ready for cooperation, and if you are the owner of the establishment and want to add it to our database, we will only be happy. It is advisable for clients to follow the news, because the menu of your favorite cafe, for example, may appear with us at any time. Namba Food strives to ensure that those who wish to order food have the largest possible selection of exquisite, tasty and unique dishes.
       </p>
       <img src="https://img.freepik.com/premium-vector/safe-delivery-during-coronavirus-covid-19-delivery-man-on-a-car-brought-the-parcel-online-food-ordering-stay-home-concept_208509-102.jpg" alt="Delivery" />
+      </div>
+      
       <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
@@ -109,7 +113,6 @@ When choosing food on the Namba Food website, you can see that we cooperate with
 
 
 
- 
 
 
 
