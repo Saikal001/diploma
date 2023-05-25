@@ -4,12 +4,7 @@ import  "./Popular.css";
 export default function Popular() {
   return (
     <div className="Popular">
-      
-
-      <div className="main-text">Popular</div>
-
-
-      
+    
       <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
