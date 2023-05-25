@@ -21,7 +21,14 @@ When choosing food on the Namba Food website, you can see that we cooperate with
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                         <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-      <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        {/* <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!--> */}
+                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
                             {/* <!-- Email address input--> */}
                             <div class="row input-group-newsletter">
                                 <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
@@ -98,6 +105,14 @@ When choosing food on the Namba Food website, you can see that we cooperate with
         </section>
       
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5"> My Website 2023</div></footer>
+      
+
+
+
+ 
+
+
+
     </div>
   );
 };
