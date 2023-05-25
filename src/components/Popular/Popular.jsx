@@ -87,8 +87,28 @@ export default function Popular() {
             </div>
         </section>
       
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5"> My Website 2023</div></footer>
-      
+        <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+      <h3>About Us</h3>
+        <p>We have been selling sweets for over 10 years and are always ready to please our customers.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Contacts</h3>
+        <p>city Bishkek st. Imanbaieva 40 mikroraion 12 </p>
+        <p>Phone: (+996) 702 02 85 45</p>
+        <p>Email: zhanybaevasaikal@gmail.com</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Follow us</h3>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
 
       </div>
       );

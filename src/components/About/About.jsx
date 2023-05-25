@@ -133,8 +133,28 @@ export default function About() {
             </div>
         </section>
       
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5"> My Website 2023</div></footer>
-      
+        <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>О нас</h3>
+        <p>Мы занимаемся продажей сладостей уже более 10 лет и всегда готовы порадовать наших клиентов.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Контакты</h3>
+        <p>Адрес: г.Москва, ул. Садовая 1</p>
+        <p>Телефон: 8 (800) 555-55-55</p>
+        <p>Email: info@sweets.ru</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Следите за нами</h3>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
