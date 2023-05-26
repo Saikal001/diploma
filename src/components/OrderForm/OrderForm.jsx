@@ -39,6 +39,7 @@ export default function OrderForm() {
 
   return (
     <div className="OrderForm">
+      <div className="btn btn-primary">
       <form onSubmit={onSubmit}>
         <h3>Create an order</h3>
         <label>
@@ -52,6 +53,7 @@ export default function OrderForm() {
         </label>
         <button>Submit</button>
       </form>
+      </div>
     </div>
   );
 }
