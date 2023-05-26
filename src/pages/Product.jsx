@@ -4,6 +4,8 @@ import { AppContext } from "../App";
 import NotFound from "./NotFound";
 import AddToCart from "../components/AddToCart/AddToCart";
 
+import "./Product.css";
+
 export default function Product() {
   const { params } = useMatch("/product/:path");
   const { products } = useContext(AppContext); 
@@ -16,7 +18,7 @@ export default function Product() {
 
   return (
     <div className="Product">
-      <h1>{product.name}</h1>
+      <h2>{product.name}</h2>
       <img src={product.picture} alt={product.name} />
       <span>{product.price} som</span>
       <p>{product.description}</p>
