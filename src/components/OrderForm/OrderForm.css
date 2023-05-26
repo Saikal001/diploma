@@ -1,16 +1,21 @@
 
 .OrderForm form  {
   display: flex;
-  border: 2px;
   flex-direction: column;
-  
+  padding: 20px;
+
 }
 .OrderForm button {
   font-size: 16px;
   width: 70px;
   height: 50px;
+  border: 1px;
+  margin: 0 auto;
+  box-shadow: 3px 4px ;
+  background-color: grey;
 }
-.OrderForm  {
-  flex-direction: column;
-  
+.OrderForm input {
+  margin: 5px;
+  width: 90%;
+  padding: 10px;
 }
